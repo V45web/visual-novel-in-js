@@ -1,0 +1,56 @@
+body{
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main{
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+  width: 80%;
+  background: url("bg.png");
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.dialog{
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  overflow-y: scroll;
+  width: 100%;
+  padding: 20px;
+  background-color: #39393919;
+  box-sizing: border-box;
+  border-top: 2px solid black;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+
+}
+
+textarea {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 80%;
+  min-height: 200px;
+  height: 400px;
+  max-height: 80vh;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+button{
+  padding: 15px 30px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  margin: 5px;
+  background: #058500af;
+}
